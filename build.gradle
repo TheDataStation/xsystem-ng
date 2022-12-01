@@ -34,7 +34,7 @@ dependencies {
     implementation 'org.javatuples:javatuples:1.2'
 
     //Common Input-Output
-    implementation "commons-io:commons-io:+"
+    implementation "commons-io:commons-io:2.11.0"
 
     //Data extraction from lists
     implementation group: 'commons-collections', name: 'commons-collections', version: '3.2'
