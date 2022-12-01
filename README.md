@@ -21,26 +21,26 @@ Enter the following command in your console to clone the repository.
 ```bash
 $> git clone https://github.com/UCHI-DB/xsystem-ng.git
 ```
-#### Adding the Wrapper JAR
-Enter the following command in your console to add Gradle Wrapper JAR
-```bash
-$> gradle wrapper
-```
 
 #### Compiling and running tests
+
 Since XSystem is a gradle project and you have already included a gradle wrapper, you do not
 need to install gradle to build and test the project. Instead, you can just:
+
 ```bash
-$> ./gradlew build
+$> ./gradlew build -x test
 ```
 
 ## Running Tests
+
 And now to run the unit tests, run the following command!
+
 ```bash
 $> ./gradlew test
 ```
 
 ## Functionality of XSystem
+
 The XSystem Inteface has been implemented by `XSystemImplementation` class. To use the methods, first create an instance of the `XSystemImplementation` class.
 
 ```Java
